@@ -1,0 +1,46 @@
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+tr {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.sort-button {
+  background-color: transparent;
+  border: none;
+
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+
+  transition: transform 0.05s ease-out;
+}
+
+.sort-reverse {
+  transform: rotate(180deg);
+}
